@@ -1,0 +1,29 @@
+### Commented entries have reasonable defaults.
+### Uncomment to edit them.
+# Source: <source package name; defaults to package name>
+Section: x11
+Priority: optional
+Homepage: https://github.com/arkane-systems/fake-packages
+Standards-Version: 3.9.2
+
+Package: xwayland-dummy
+Version: 2:1.20.11-1
+Section: x11
+Maintainer: Alistair Young <avatar@arkane-systems.net>
+# Pre-Depends: <comma-separated list of packages>
+# Depends: <comma-separated list of packages>
+# Recommends: <comma-separated list of packages>
+# Suggests: <comma-separated list of packages>
+Provides: xwayland
+# Replaces: <comma-separated list of packages>
+Architecture: all
+# Multi-Arch: <one of: foreign|same|allowed>
+# Copyright: <copyright file; defaults to GPL2>
+# Changelog: <changelog file; defaults to a generic changelog>
+# Readme: <README.Debian file; defaults to a generic one>
+# Extra-Files: <comma-separated list of additional files for the doc directory>
+# Links: <pair of space-separated paths; First is path symlink points at, second is filename of link>
+# Files: <pair of space-separated paths; First is file to include, second is destination>
+#  <more pairs, if there's more than one file to include. Notice the starting space>
+Description: Dummy xwayland package.
+ Hacks dependencies to allow non-install under WSLg.
