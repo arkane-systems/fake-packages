@@ -3,7 +3,7 @@
 # Source: <source package name; defaults to package name>
 Section: sound
 Priority: optional
-Homepage: https//github.com/arkane-systems/fake-packages
+Homepage: https//github.com/cerebrate/fake-packages
 Standards-Version: 3.9.2
 
 Package: pulseaudio-dummy
